@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7210C4527B4DAE100F92EA9 /* KDataTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B7210C4427B4DAE100F92EA9 /* KDataTest.m */; };
+		B7210C4627B4DAE100F92EA9 /* KDataTest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B7210C4327B4DAE100F92EA9 /* KDataTest.h */; };
+		B7210C5227BA624600F92EA9 /* KSystemCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = B7210C5127BA624500F92EA9 /* KSystemCollector.m */; };
+		B7210C5427BA625700F92EA9 /* KCollectorTaskBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B7210C5327BA625700F92EA9 /* KCollectorTaskBase.m */; };
+		B7210C5A27BA643B00F92EA9 /* KDataCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = B7210C5827BA643A00F92EA9 /* KDataCollector.m */; };
+		B7210C5F27BA660000F92EA9 /* KFingerprintCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = B7210C5B27BA65FF00F92EA9 /* KFingerprintCollector.m */; };
+		B7210C6027BA660000F92EA9 /* KLocationCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = B7210C5E27BA65FF00F92EA9 /* KLocationCollector.m */; };
+		B7210C6527BA661900F92EA9 /* KDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = B7210C6227BA661900F92EA9 /* KDictionary.m */; };
+		B7210C6627BA661900F92EA9 /* KString.m in Sources */ = {isa = PBXBuildFile; fileRef = B7210C6427BA661900F92EA9 /* KString.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B7210C3E27B4DAE100F92EA9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				B7210C4627B4DAE100F92EA9 /* KDataTest.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B7210C4027B4DAE100F92EA9 /* libKDataTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKDataTest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7210C4327B4DAE100F92EA9 /* KDataTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDataTest.h; sourceTree = "<group>"; };
+		B7210C4427B4DAE100F92EA9 /* KDataTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDataTest.m; sourceTree = "<group>"; };
+		B7210C5027BA623E00F92EA9 /* KSystemCollector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSystemCollector.h; sourceTree = "<group>"; };
+		B7210C5127BA624500F92EA9 /* KSystemCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSystemCollector.m; sourceTree = "<group>"; };
+		B7210C5327BA625700F92EA9 /* KCollectorTaskBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCollectorTaskBase.m; sourceTree = "<group>"; };
+		B7210C5527BA625B00F92EA9 /* KCollectorTaskBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCollectorTaskBase.h; sourceTree = "<group>"; };
+		B7210C5727BA643A00F92EA9 /* KDataCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDataCollector.h; sourceTree = "<group>"; };
+		B7210C5827BA643A00F92EA9 /* KDataCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDataCollector.m; sourceTree = "<group>"; };
+		B7210C5927BA643A00F92EA9 /* KDataCollector_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDataCollector_Internal.h; sourceTree = "<group>"; };
+		B7210C5B27BA65FF00F92EA9 /* KFingerprintCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFingerprintCollector.m; sourceTree = "<group>"; };
+		B7210C5C27BA65FF00F92EA9 /* KFingerprintCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFingerprintCollector.h; sourceTree = "<group>"; };
+		B7210C5D27BA65FF00F92EA9 /* KLocationCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLocationCollector.h; sourceTree = "<group>"; };
+		B7210C5E27BA65FF00F92EA9 /* KLocationCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLocationCollector.m; sourceTree = "<group>"; };
+		B7210C6127BA661900F92EA9 /* KDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDictionary.h; sourceTree = "<group>"; };
+		B7210C6227BA661900F92EA9 /* KDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDictionary.m; sourceTree = "<group>"; };
+		B7210C6327BA661900F92EA9 /* KString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KString.h; sourceTree = "<group>"; };
+		B7210C6427BA661900F92EA9 /* KString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KString.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7210C3D27B4DAE100F92EA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7210C3727B4DAE100F92EA9 = {
+			isa = PBXGroup;
+			children = (
+				B7210C4227B4DAE100F92EA9 /* KDataTest */,
+				B7210C4127B4DAE100F92EA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7210C4127B4DAE100F92EA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7210C4027B4DAE100F92EA9 /* libKDataTest.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7210C4227B4DAE100F92EA9 /* KDataTest */ = {
+			isa = PBXGroup;
+			children = (
+				B7210C4327B4DAE100F92EA9 /* KDataTest.h */,
+				B7210C4427B4DAE100F92EA9 /* KDataTest.m */,
+				B7210C5027BA623E00F92EA9 /* KSystemCollector.h */,
+				B7210C5127BA624500F92EA9 /* KSystemCollector.m */,
+				B7210C5327BA625700F92EA9 /* KCollectorTaskBase.m */,
+				B7210C5527BA625B00F92EA9 /* KCollectorTaskBase.h */,
+				B7210C5927BA643A00F92EA9 /* KDataCollector_Internal.h */,
+				B7210C5727BA643A00F92EA9 /* KDataCollector.h */,
+				B7210C5827BA643A00F92EA9 /* KDataCollector.m */,
+				B7210C5C27BA65FF00F92EA9 /* KFingerprintCollector.h */,
+				B7210C5B27BA65FF00F92EA9 /* KFingerprintCollector.m */,
+				B7210C5D27BA65FF00F92EA9 /* KLocationCollector.h */,
+				B7210C5E27BA65FF00F92EA9 /* KLocationCollector.m */,
+				B7210C6127BA661900F92EA9 /* KDictionary.h */,
+				B7210C6227BA661900F92EA9 /* KDictionary.m */,
+				B7210C6327BA661900F92EA9 /* KString.h */,
+				B7210C6427BA661900F92EA9 /* KString.m */,
+			);
+			path = KDataTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7210C3F27B4DAE100F92EA9 /* KDataTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7210C4927B4DAE100F92EA9 /* Build configuration list for PBXNativeTarget "KDataTest" */;
+			buildPhases = (
+				B7210C3C27B4DAE100F92EA9 /* Sources */,
+				B7210C3D27B4DAE100F92EA9 /* Frameworks */,
+				B7210C3E27B4DAE100F92EA9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KDataTest;
+			productName = KDataTest;
+			productReference = B7210C4027B4DAE100F92EA9 /* libKDataTest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7210C3827B4DAE100F92EA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					B7210C3F27B4DAE100F92EA9 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = B7210C3B27B4DAE100F92EA9 /* Build configuration list for PBXProject "KDataTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7210C3727B4DAE100F92EA9;
+			productRefGroup = B7210C4127B4DAE100F92EA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7210C3F27B4DAE100F92EA9 /* KDataTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7210C3C27B4DAE100F92EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7210C5227BA624600F92EA9 /* KSystemCollector.m in Sources */,
+				B7210C5427BA625700F92EA9 /* KCollectorTaskBase.m in Sources */,
+				B7210C6527BA661900F92EA9 /* KDictionary.m in Sources */,
+				B7210C4527B4DAE100F92EA9 /* KDataTest.m in Sources */,
+				B7210C5A27BA643B00F92EA9 /* KDataCollector.m in Sources */,
+				B7210C6027BA660000F92EA9 /* KLocationCollector.m in Sources */,
+				B7210C6627BA661900F92EA9 /* KString.m in Sources */,
+				B7210C5F27BA660000F92EA9 /* KFingerprintCollector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B7210C4727B4DAE100F92EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B7210C4827B4DAE100F92EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7210C4A27B4DAE100F92EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X26K8RS7UD;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7210C4B27B4DAE100F92EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X26K8RS7UD;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7210C3B27B4DAE100F92EA9 /* Build configuration list for PBXProject "KDataTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7210C4727B4DAE100F92EA9 /* Debug */,
+				B7210C4827B4DAE100F92EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7210C4927B4DAE100F92EA9 /* Build configuration list for PBXNativeTarget "KDataTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7210C4A27B4DAE100F92EA9 /* Debug */,
+				B7210C4B27B4DAE100F92EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7210C3827B4DAE100F92EA9 /* Project object */;
+}

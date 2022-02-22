@@ -1,0 +1,70 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "f8865b2c3ab81d07105bd3fe32f23eca3984b37cec5a8bdb6a2effb336b497b9"
+    }
+  ],
+  "containerPath" : "/Users/suryateja/Documents/KDataTest/KDataTest.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.0",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "i386",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/suryateja/Documents/KDataTest/derived_data/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/suryateja/Documents/KDataTest/derived_data/Build/Products",
+      "derivedDataPath" : "/Users/suryateja/Documents/KDataTest/derived_data",
+      "indexDataStoreFolderPath" : "/Users/suryateja/Documents/KDataTest/derived_data/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/suryateja/Documents/KDataTest/derived_data/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/suryateja/Documents/KDataTest/derived_data/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "ARCHS" : "x86_64",
+          "BUILD_LIBRARY_FOR_DISTRIBUTION" : "YES",
+          "SDKROOT" : "iphonesimulator15.0"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "COLOR_DIAGNOSTICS" : "YES",
+          "diagnostic_message_length" : "80",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "dvtdevice-DVTiOSDeviceSimulatorPlaceholder-iphonesimulator:placeholder",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

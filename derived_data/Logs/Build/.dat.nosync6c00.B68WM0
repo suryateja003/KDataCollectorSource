@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>3C45C544-9598-44B9-8450-F866CDBD7A9A</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3C45C544-9598-44B9-8450-F866CDBD7A9A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>KDataTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>KDataTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project KDataTest with scheme KDataTest</string>
+			<key>timeStartedRecording</key>
+			<real>666531584.15411103</real>
+			<key>timeStoppedRecording</key>
+			<real>666531587.32787597</real>
+			<key>title</key>
+			<string>Building project KDataTest with scheme KDataTest</string>
+			<key>uniqueIdentifier</key>
+			<string>3C45C544-9598-44B9-8450-F866CDBD7A9A</string>
+		</dict>
+		<key>C6324943-CDC4-4619-B38C-884CA4CF9E54</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C6324943-CDC4-4619-B38C-884CA4CF9E54.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>KDataTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>KDataTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project KDataTest with scheme KDataTest</string>
+			<key>timeStartedRecording</key>
+			<real>666531390.20142698</real>
+			<key>timeStoppedRecording</key>
+			<real>666531394.76967704</real>
+			<key>title</key>
+			<string>Building project KDataTest with scheme KDataTest</string>
+			<key>uniqueIdentifier</key>
+			<string>C6324943-CDC4-4619-B38C-884CA4CF9E54</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

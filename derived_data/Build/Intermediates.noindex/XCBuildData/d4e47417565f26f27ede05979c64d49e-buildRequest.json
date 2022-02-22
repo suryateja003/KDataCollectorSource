@@ -1,0 +1,74 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "f8865b2c3ab81d07105bd3fe32f23eca3984b37cec5a8bdb6a2effb336b497b9"
+    }
+  ],
+  "containerPath" : "/Users/suryateja/Documents/KDataTest/KDataTest.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64e",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos15.0",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "armv4t",
+        "armv5",
+        "armv6",
+        "armv7",
+        "armv7f",
+        "armv7s",
+        "armv7k",
+        "arm64",
+        "arm64e"
+      ],
+      "targetArchitecture" : "arm64e"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/suryateja/Documents/KDataTest/derived_data/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/suryateja/Documents/KDataTest/derived_data/Build/Products",
+      "derivedDataPath" : "/Users/suryateja/Documents/KDataTest/derived_data",
+      "indexDataStoreFolderPath" : "/Users/suryateja/Documents/KDataTest/derived_data/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/suryateja/Documents/KDataTest/derived_data/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/suryateja/Documents/KDataTest/derived_data/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "ARCHS" : "arm64",
+          "BUILD_LIBRARY_FOR_DISTRIBUTION" : "YES",
+          "SDKROOT" : "iphoneos15.0"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "COLOR_DIAGNOSTICS" : "YES",
+          "diagnostic_message_length" : "80",
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
